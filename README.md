@@ -41,7 +41,7 @@ workflow from previous runs.
 You can install the module from github with:
 
 ```bash
-pip install -U 'git+ssh://git@github.com/innovite-ch/libs.git/'
+pip install -U 'git+ssh://git@github.com/terek/scrapeflow.git/'
 ```
 
 ## `scrapeflow.executor` module
