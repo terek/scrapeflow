@@ -38,10 +38,17 @@ workflow from previous runs.
 
 ### Installation
 
-You can install the module from github with:
+You can install the package directly from this repository with uv:
 
 ```bash
-pip install -U 'git+ssh://git@github.com/terek/scrapeflow.git/'
+# Install from local directory
+uv add ./path/to/scrapeflow
+
+# Install from git repository (when available)
+uv add git+https://github.com/terek/scrapeflow.git
+
+# Or with pip in development mode
+pip install -e ./path/to/scrapeflow
 ```
 
 ## `scrapeflow.executor` module
